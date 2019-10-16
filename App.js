@@ -38,10 +38,10 @@ export default class AppContainer extends React.Component {
       console.log(token)
 
       // 1. 집주소 받기: await Notifications.getExpoPushTokenAsync() 함수를 통해 "휴대폰의 집주소(토큰)" 받는다.
-      // 아래에서 log로 집주소(토큰)을 확인한다. (콘솔에는 ExponentPushToken[3k0hm1GwOtkQiKmvFMA0AR] 이렇게 찍힌다)
+      // 아래에서 log로 집주소(토큰)을 확인한다. (콘솔에는 ExponentPushToken[니 토큰 주소] 이렇게 찍힌다)
 
       // 2. 집주소를 알아냈으면 이 사이트에서 테스트 하자 -> https://expo.io/dashboard/notifications
-      // - EXPO PUSH TOKEN (FROM YOUR APP)에 콘솔로 알아낸 ExponentPushToken[3k0hm1GwOtkQiKmvFMA0AR] 입력
+      // - EXPO PUSH TOKEN (FROM YOUR APP)에 콘솔로 알아낸 ExponentPushToken[니 토큰 주소] 입력
       // - 제목, 내용 아무거나 입력해서 버튼 클릭
       
 
